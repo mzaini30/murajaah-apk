@@ -1,3 +1,13 @@
+// save page position
+
+posisi_scroll = localStorage.getItem('murajaah posisi')
+$('html, body').animate({
+	scrollTop: posisi_scroll
+}, 700)
+$(window).scroll(function(){
+	localStorage.setItem('murajaah posisi', $(window).scrollTop())
+})
+
 Array.prototype.remove = function() {
     var what, a = arguments, L = a.length, ax;
     while (L && this.length) {
