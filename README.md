@@ -1,2 +1,1 @@
-# murajaah-apk
-Aplikasi Android untuk membantumu mencatat progress murajaah.
+Aplikasi murajaah untuk membantu progress murajaah kita.
